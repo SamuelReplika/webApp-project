@@ -1,0 +1,15 @@
+{
+  "name": "webapp-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.19.1",
+    "jest-extended": "^2.0.0",
+    "playwright": "^1.20.0"
+  }
+}
