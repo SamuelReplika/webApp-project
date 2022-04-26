@@ -17,11 +17,11 @@ test('login and close', async () => {
       // Click [placeholder="Email"]
       await page.locator('[placeholder="Email"]').click();
       // Fill [placeholder="Email"]
-      await page.locator('[placeholder="Email"]').fill('seena.babu+shuba@fingent.com');
+      await page.locator('[placeholder="Email"]').fill('ss+dior.us@replikasoftware.com');
       // Click [placeholder="Password"]
       await page.locator('[placeholder="Password"]').click();
       // Fill [placeholder="Password"]
-      await page.locator('[placeholder="Password"]').fill('password@123');
+      await page.locator('[placeholder="Password"]').fill('Replika1234!!');
       // Click text=Login
       await page.locator('text=Login').click();
       // Go to https://uat.myreplika.com/Dashboard/Dashboard/Index
