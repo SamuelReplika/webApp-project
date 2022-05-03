@@ -3,7 +3,7 @@ const { test, expect } = require('@playwright/test');
 
 test.describe('dior c2c test', async () => {
     
-    
+test('c2c share', async () => {  
 const { chromium } = require('playwright');
 (async () => {
   const browser = await chromium.launch({
@@ -54,5 +54,5 @@ const { chromium } = require('playwright');
   await context.close();
   await browser.close();
 })();
-
+});
 });
