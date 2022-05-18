@@ -1,8 +1,9 @@
-import { test, expect } from '@playwright/test';
+// @ts-check
+const { test, expect } = require('@playwright/test');
 
 test.describe('dior FB share test', async () =>{
 
-test('test', async ({ page }) => {
+test('FB test', async ({ page }) => {
   // Go to https://us.rpk.dior.com/
   await page.goto('https://us.rpk.dior.com/');
   // Click [placeholder="Email"]
